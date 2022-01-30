@@ -10,7 +10,7 @@ public class OrderRepository {
 
     public String save(String itemId){
 
-        log.info("[OrderRepository] 실행");
+        log.info("[OrderRepository] 싫행");
         //저장로직
         if(itemId.equals("ex")){
             throw new IllegalStateException("예외 발생!");
