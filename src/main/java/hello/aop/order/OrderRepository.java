@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 @Repository
 public class OrderRepository {
 
-    public String save(String itemId){
+    public String save(String itemId){   
 
         log.info("[OrderRepository] 싫행");
         //저장로직
