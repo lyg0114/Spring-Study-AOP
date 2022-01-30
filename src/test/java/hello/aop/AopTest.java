@@ -24,6 +24,7 @@ public class AopTest {
     void aopInfo(){
         log.info("isAopProxy, orderService={}", AopUtils.isAopProxy(orderService));
         log.info("isAopProxy, orderRepository={}", AopUtils.isAopProxy(orderRepository));
+
     }
 
     @Test
